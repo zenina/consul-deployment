@@ -1,0 +1,11 @@
+{
+    "bootstrap": false,
+    "server": true,
+    "datacenter": "dc1",
+    "data_dir": "/var/consul",
+    "encrypt" : "${encrypt}",
+    "log_level": "INFO",
+    "enable_syslog": true,
+    "retry_join": [${joinips}]
+
+}
