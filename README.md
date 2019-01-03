@@ -5,7 +5,7 @@ Run with
 
 Use an SSH tunnel to connect to the webui
 
-ssh -N -f -L 8500:localhost:8500 root@<UI IP>
+ssh -N -f -L 8500:localhost:8500 root@IP
 
 
 
